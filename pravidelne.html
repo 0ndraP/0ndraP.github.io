@@ -9,38 +9,42 @@
 
         <script> 
             $(function() {
-                $("#header").load("header.html"); 
+                $("#header").load("header.html");
+                $("#footer").load("footer.html");
             });
         </script>
     </head>
     <body>
         <div id="header"></div>
-        <h3>Rozpis bohoslužeb - Farnost Suché Vrbné</h3>
-        <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col">Den</th>
-                <th scope="col">Day, Tag</th>
-                <th scope="col">Zimní čas</th>
-                <th scope="col">Letní čas</th>
-                <th scope="col">Poznámka</th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <th scope="row">Neděle</th>
-                  <td>Sunday, Sonntag</td>
-                  <td colspan="2" align="center">9:30</td>
-                </tr>
-              <tr>
-                <th scope="row">Pátek</th>
-                <td>Friday, Freitag</td>
-                <td>17:00</td>
-                <td>18:00</td>
-                <td>Nekoná se o letních prázdninách</td>
-              </tr>
-            </tbody>
-          </table>
-          <p>Každý první pátek v měsíci hodinu přede mší začíná tichá adorace a je možnost přistoupit ke svátosti smíření. Půl hodiny přede mší svatou se modlíme růženec. Po mši svaté následuje slavnostní výstava Nejsvětějsí svátosti a svátostné požehnání.</p>
+        <div style="margin: 20px;">
+            <h3>Rozpis bohoslužeb - Farnost Suché Vrbné</h3>
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Den</th>
+                    <th scope="col">Day, Tag</th>
+                    <th scope="col">Zimní čas</th>
+                    <th scope="col">Letní čas</th>
+                    <th scope="col">Poznámka</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <th scope="row">Neděle</th>
+                      <td>Sunday, Sonntag</td>
+                      <td colspan="2" align="center">9:30</td>
+                    </tr>
+                  <tr>
+                    <th scope="row">Pátek</th>
+                    <td>Friday, Freitag</td>
+                    <td>17:00</td>
+                    <td>18:00</td>
+                    <td>Nekoná se o letních prázdninách</td>
+                  </tr>
+                </tbody>
+            </table>
+            <p>Každý první pátek v měsíci hodinu přede mší začíná tichá adorace a je možnost přistoupit ke svátosti smíření. Půl hodiny přede mší svatou se modlíme růženec. Po mši svaté následuje slavnostní výstava Nejsvětějsí svátosti a svátostné požehnání.</p>   
+        </div>
+        <div id="header"></div>
     </body>
 </html>
