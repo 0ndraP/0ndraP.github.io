@@ -22,7 +22,7 @@ const analytics = getAnalytics(app);
 // stahování úkolů
 
 const dbRef = ref(database)
-get(child(dbRef, "ukoly5")).then((snapshot) => {
+get(child(dbRef, "aktuality")).then((snapshot) => {
 	if (snapshot.exists()) {
 		console.log(snapshot.val())
 
@@ -31,13 +31,14 @@ get(child(dbRef, "ukoly5")).then((snapshot) => {
 		const divNadpis = document.createElement("div")
 		divNadpis.className = "d-flex justify-content-center"
 
+
 		const h1 = document.createElement('h1')
 		h1.innerText = "Úkoly"
 		h1.className = "mt-1"
 
 		divNadpis.append(h1)
 
-		const ul = document.createElement('ul')
+		/*const ul = document.createElement('ul')
 
 		ul.className = "list-group list-group-flush"
 
@@ -94,15 +95,13 @@ get(child(dbRef, "ukoly5")).then((snapshot) => {
 			li.append(span)
 
 			ul.append(li)
-		}
+		} */
 
 		const body = document.querySelector('body')
 
 		body.append(divNadpis)
-		body.append(ul)
+		//body.append(ul)
 
-
-		console.log("neco neco")
 
 		// když to není:
 
