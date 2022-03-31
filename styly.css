@@ -1,11 +1,3 @@
-.primarni {
-    border-color: violet;
-}
-.footerova {
-
-    background-color: plum;
-}
-.headerova {
-    font-weight: 900;
-    background-color: orchid;
+body {
+    background-color: palegoldenrod;
 }
