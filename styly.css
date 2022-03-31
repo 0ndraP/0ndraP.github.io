@@ -1,12 +1,12 @@
 body {
-    background-color: palegoldenrod;
-}
-footer {
-    background-color: palegreen;
+    background-color: lightgoldenrodyellow;
 }
 header {
-    background-color: palevioletred;
+    background-color: darkorange;
+}
+footer {
+    background-color: burlywood;
 }
 table {
-    border-color: seagreen;
+    border-color: darkorange;
 }
