@@ -10,3 +10,6 @@ footer {
 table {
     border-color: orangered;
 }
+ul {
+    vertical-align: bottom;
+}
