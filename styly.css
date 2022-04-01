@@ -10,10 +10,6 @@ footer {
 table {
     border-color: orangered;
 }
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .topnav {
   overflow: hidden;
@@ -38,10 +34,6 @@ body {
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
-}
-
-.topnav .icon {
-  display: none;
 }
 
 @media screen and (max-width: 600px) {
