@@ -10,11 +10,3 @@ footer {
 table {
     border-color: orangered;
 }
-ul {
-    vertical-align: bottom;
-    text-align: center;
-}
-li {
-    text-align: center;
-    width: max-content;
-}
