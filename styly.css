@@ -13,13 +13,13 @@ table {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: darkorange;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,16 +31,12 @@ table {
   color: black;
 }
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+    src: url(https://cdn-icons-png.flaticon.com/512/273/273605.png);
   }
 }
 
